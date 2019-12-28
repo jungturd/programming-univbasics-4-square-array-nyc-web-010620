@@ -3,5 +3,8 @@ def square_array(array)
   
   i = 0
   
-  
+  while i < numbers.size
+    result[i] = numbers[i] ** 2
+    i += 1
+  end
 end
